@@ -39,7 +39,7 @@ int main() {
     // for loop to generate 10 numbers
     for (int loopCounter = 0; loopCounter < 10; loopCounter++) {
         // generate random number
-        std::uniform_int_distribution<int> idist(0, 99);
+        std::uniform_int_distribution<int> idist(0, 100);
         randNum = idist(rgen);
 
         // add random number at loop counter position
