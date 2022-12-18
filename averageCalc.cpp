@@ -46,10 +46,10 @@ int main() {
         arrayOfNumber[loopCounter] = randNum;
 
         if (randNum < MAX_ARRAY_SIZE) {
-            std::cout << randNum << "  added at postion "
+            std::cout << randNum << "  added at position "
             << loopCounter << std::endl;
         } else {
-            std::cout << randNum << " added at postion "
+            std::cout << randNum << " added at position "
             << loopCounter << std::endl;
         }
     }
